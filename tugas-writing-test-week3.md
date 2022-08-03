@@ -280,6 +280,6 @@ Contoh penulisan OOP
 > - Asynchronous : mengizinkan komputer kita untuk memproses perintah lain sambil menunggu suatu proses lain yang sedang berlangsung. Artinya kita bisa melakukan lebih dari 1 proses sekaligus (multi-thread).
 
 > Asynchronous di Javascript (untuk mendapatkan data ke server)
-> - Promise : pada promise akan dipisahkan menjadi 2, yaitu menggunakan **then** (ketika keadaan berhasil) dan **catch** (ketika keadaan gagal/error) 
+> - Promise : pada promise ketika ada suatu proses akan ada 2 kondisi, yaitu menggunakan **then** (ketika keadaan berhasil) dan **catch** (ketika keadaan gagal/error) 
 > - Async/Await
 > - Fetch : fetch data merupakan fungsi komunikasi HTTP yang bertujuan untuk mengambil dan mengirimkan data ke suatu server
