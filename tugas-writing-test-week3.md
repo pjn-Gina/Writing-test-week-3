@@ -264,8 +264,22 @@ Contoh penulisan OOP
 ### **1. Local Storage**
 > Local Storage adalah sebuah wadah/data yang akan selamanya disimpan. Jadi ketika kita keluar(close) dari browser, data di browser tidak akan dihapus.
 
+> ada beberapa method pada local storage :
+> - setItem = perintah untuk menyimpan token ke dalam local storage
+> - getItem = perintah untuk mengambil value pada local storage
+> - removeItem = perintah menghapus data dari local storage nya
+
 ### **2. Session Storage**
 > adalah sebuah wadah/data yang tidak akan disimpan. Jadi data di browser akan terhapus ketika kita close browsernya.
 
+> sama dengan local storage, pada session storage juga menggunakan method yang sama, yaitu ada getItem, setItem, removeItem dan lainnya.
+
 ## Asynchronous-Introduction
-## Asynchronous-Promise
+
+> -  Synchronous : mengeksekusi perintah satu per satu dan berurutan
+> - Asynchronous : mengizinkan komputer kita untuk memproses perintah lain sambil menunggu suatu proses lain yang sedang berlangsung. Artinya kita bisa melakukan lebih dari 1 proses sekaligus (multi-thread).
+
+> Asynchronous di Javascript (untuk mendapatkan data ke server)
+> - Promise : pada promise akan dipisahkan menjadi 2, yaitu menggunakan **then** (ketika keadaan berhasil) dan **catch** (ketika keadaan gagal/error) 
+> - Async/Await
+> - Fetch : fetch data merupakan fungsi komunikasi HTTP yang bertujuan untuk mengambil dan mengirimkan data ke suatu server
